@@ -1,0 +1,63 @@
+@import 'header';
+@import 'home';
+@import 'footer';
+@import 'hamburger';
+@import 'faq';
+@import 'hilfe';
+@import 'pages';
+@import 'kontakt';
+@import 'tarife';
+@import '404';
+
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden;
+    scroll-behavior: smooth!important;
+    list-style-type: none;
+    appearance: none;
+    padding: 0!important;
+}
+
+.wpcf7-not-valid{
+    border-bottom: 2px solid red !important;
+}
+.wpcf7-not-valid-tip, .wpcf7-response-output{
+    display: none!important;
+}
+li{
+    list-style-type: none!important;
+}
+a:visited{
+    color: unset;
+}
+a{
+    text-decoration: unset;
+}
+.post, .page {
+    margin: 0;
+}
+body{
+    background: #f2f2f2!important;
+}
+
+.modal-open::-webkit-scrollbar{
+    display: none;
+}
+.chatCopyright_1a8e{
+    display: none;
+}
+
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url(../fonts/DMSerifDisplay-Regular.ttf);
+    }
+    
+
+
+  
+
+    
+
+  
+  

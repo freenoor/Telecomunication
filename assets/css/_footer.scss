@@ -1,0 +1,154 @@
+footer{
+    background-image: url(../../assets/img/bgblack.svg);
+    background-attachment: fixed;
+    color: #fff;
+    .inner__footer{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        @media(max-width: 767.98px){
+            padding-top: 80px;
+        }
+        @media(max-width: 470px){
+            padding-top: 40px;
+            display: flex;
+            flex-direction: column;
+        }
+        .allinonefooter{
+            @media(max-width: 470px){
+                margin: 40px 0;
+            }
+            a{
+                color: white;
+            }
+            h1{
+                font-size: 30px;
+                line-height: 1.1;
+                font-family: Roboto,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+                font-style: normal;
+                font-weight: 300;
+                color: inherit;
+                text-rendering: optimizeLegibility;
+                margin-bottom: 1.66667rem;
+            }
+            nav{
+                ul{
+                    li{
+                        @media(max-width: 575.98px){
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        .footers1, .footers2, .footers3{
+            .navbar2, .navbar3, .navbar4{
+                .menu-menu-2-container, .menu-menu-extra-container, .menu-menu-extra-2-container{
+                    ul{
+                        padding: 0;
+                        margin: 0;
+                        li{
+                            text-align: center;
+                            margin-bottom: 15px;
+                            font-size: 16px;
+                            line-height: 1.563;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .underfooter{
+        padding: 20px 0;
+        ul{
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            li{
+                cursor: pointer;
+                margin: 0 40px;
+                &:hover{
+                    
+                        text-decoration: underline;
+                    
+                }
+                .rightside-1, .rightside-2{
+                    margin: 0;
+                    font-size: 15px;
+                    color: white;  
+                    .title-imp{
+                        color: white!important;
+                        text-transform: uppercase;
+                    }
+                    .modal{
+                        .modal-dialog{
+                            max-width: 800px;
+                            padding: 0 15px!important;
+                        }
+                        .modal-body{
+                            .left_impre2{
+                                p{
+                                    @media(max-width: 470px){
+                                        text-align: center;
+                                        font-size: 15px;
+                                    }
+                                }
+                            }
+                        }
+                        .modal-footer{
+                            button{
+                                background-color: #ff00007a;
+                                transition: .3s ease-in-out;
+                                -webkit-transition: .3s ease-in-out;
+                                -moz-transition: .3s ease-in-out;
+                                -ms-transition: .3s ease-in-out;
+                                -o-transition: .3s ease-in-out;
+                                outline: unset;
+                                &:hover{
+                                    background-color: #ff0000c9;
+                                    transition: .3s ease-in-out;
+                                    -webkit-transition: .3s ease-in-out;
+                                    -moz-transition: .3s ease-in-out;
+                                    -ms-transition: .3s ease-in-out;
+                                    -o-transition: .3s ease-in-out;
+                                }
+                                    &:active, :focus{
+                                        outline: unset;
+                                    }
+                            }
+                        }
+                        .modal-header{
+                            align-items: center;
+                            h4{
+                                color: black;
+                            }
+                            button{
+                                &:active, :focus{
+                                    outline: unset;
+                                }
+                            }
+                        }
+                        p{
+                            margin: 0;
+                            color: #808080;
+                            text-align: left;
+                            font-size: 16px;
+                            a{
+                                color: #6c6c6c!important;
+                                font-weight: 600;
+                                display: inline-block;
+                                width: 100%;
+                                margin-bottom: 20px;
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
